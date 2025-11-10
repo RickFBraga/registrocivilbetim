@@ -10,8 +10,8 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
-      redirect: '/'
+      path: '/home',
+      redirect: '/home'
     },
     {
       path: '/home',
