@@ -7,7 +7,7 @@
       </RouterLink>
 
       <nav class="hidden md:flex gap-8 text-sm font-medium">
-        <RouterLink to="/home" :class="linkClass('/home')">Home</RouterLink>
+        <RouterLink to="/" :class="linkClass('/')">Home</RouterLink>
         <RouterLink to="/segunda-via" :class="linkClass('/segunda-via')"
           >2ª Via Certidão</RouterLink
         >
